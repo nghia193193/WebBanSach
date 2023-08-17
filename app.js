@@ -11,7 +11,7 @@ const csrf = require('csurf')
 const flash = require('connect-flash')
 const multer = require('multer')
 
-const MONGODB_URI = 'mongodb+srv://nghia193:Aa123456@cluster0.nizvwnm.mongodb.net/shop?retryWrites=true&w=majority'
+const MONGODB_URI = 'URI'
 
 const app = express();
 const store = new mongodbStore({
