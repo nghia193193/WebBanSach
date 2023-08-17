@@ -11,6 +11,7 @@ const csrf = require('csurf')
 const flash = require('connect-flash')
 const multer = require('multer')
 
+// ADD URI HERE
 const MONGODB_URI = 'URI'
 
 const app = express();
